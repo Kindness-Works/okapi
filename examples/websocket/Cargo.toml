@@ -6,6 +6,6 @@ edition = "2021"
 
 [dependencies]
 rocket = { version = "=0.5.1", default-features = false, features = [ "json" ] }
-rocket_ws = "0.1.0"
+rocket_ws = "0.1.1"
 rocket_okapi = { path = "../../rocket-okapi", features = [ "swagger", "rapidoc", "rocket_ws" ] }
 serde = "1.0"
