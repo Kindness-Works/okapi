@@ -16,7 +16,7 @@ type Result = crate::Result<Responses>;
 
 // Implement `OpenApiResponderInner` for everything that implements `Responder`
 // Order is same as on:
-// https://docs.rs/rocket/0.5.0/rocket/response/trait.Responder.html#foreign-impls
+// https://docs.rs/rocket/0.5.1/rocket/response/trait.Responder.html#foreign-impls
 
 // ## Implementations on Foreign Types
 
@@ -72,7 +72,7 @@ impl OpenApiResponderInner for &[u8] {
     }
 }
 
-impl<L, R> OpenApiResponderInner for rocket::Either<L, R>
+impl<L, R> OpenApiResponderInner for rocket::either::Either<L, R>
 where
     L: OpenApiResponderInner,
     R: OpenApiResponderInner,
