@@ -5,7 +5,7 @@ authors = ["Ralph Bisschops <ralph.bisschops.dev@gmail.com>"]
 edition = "2021"
 
 [dependencies]
-rocket = { git = "https://github.com/rwf2/Rocket.git", rev = "8b9d906cc4923fdf6f2b860e0da2ab00f1993796", default-features = false, features = [
+rocket = { git = "https://github.com/rwf2/Rocket.git", rev = "f50b604", default-features = false, features = [
 	"json",
 ] }
 schemars = { version = "0.8" }
@@ -15,7 +15,7 @@ rocket_okapi = { path = "../../rocket-okapi", features = [
 	"rocket_dyn_templates",
 ] }
 serde = "1.0"
-rocket_dyn_templates = { git = "https://github.com/rwf2/Rocket.git", rev = "8b9d906cc4923fdf6f2b860e0da2ab00f1993796", features = [
+rocket_dyn_templates = { git = "https://github.com/rwf2/Rocket.git", rev = "f50b604", features = [
 	"handlebars",
 ] }
 handlebars = "6.0.0"
