@@ -1,4 +1,4 @@
-# Okapi
+# Okapi for Rocket 0.6.0-dev (currently using rev f50b604)
 Okapi: [![Download](https://img.shields.io/crates/v/okapi)](https://crates.io/crates/okapi/)
 [![API Docs](https://img.shields.io/badge/docs-okapi-blue)](https://docs.rs/okapi/latest/okapi/)
 
